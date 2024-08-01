@@ -25,7 +25,16 @@ print("Line A \tLine B")
 print("this is \ backslash")
 
 
-print("this is backslash\") # Syntax Error due to \" 
+#print("this is backslash\") # Syntax Error due to \" 
 
 print("this is backslash \\")
 
+print("this is double backslash \\\\")
+
+# \b Escape Sequence
+
+print("My name is \bArun") # /b will Errase the space after is.
+
+print("My name is \b\bArun") # /b/b will Errase the space after is and s from is.
+
+print("My name is\b\b\bArun")  # /b/b/b will errase "is" and extra space befor is. 
